@@ -467,6 +467,9 @@ body {
   .banner-text {
     font-size: 16px;
   }
+  .btn-banner {
+    width: 100% !important;
+  }
 }
 @media (max-width: 425px) {
   .header-level-1 {
@@ -560,6 +563,9 @@ body {
   }
 }
 @media (max-width: 425px) {
+  .btn-banner .btn-button {
+    min-width: 100%;
+  }
   .btn-banner:last-of-type {
     margin-bottom: 33px;
   }
@@ -621,6 +627,11 @@ body {
   }
 }
 
+.logo-text {
+  padding-left: 8px;
+  font-size: 12px;
+}
+
 .btn-search {
   min-width: 278px;
   min-height: 25px;
@@ -643,7 +654,7 @@ body {
 }
 
 .menu-link-active {
-  color: #fff;
+  color: #fff !important;
 }
 
 @media (max-width: 1024px) {
@@ -666,12 +677,6 @@ body {
   }
   .menu-item {
     margin-bottom: 10px;
-  }
-  .menu-item:first-child .menu-link {
-    color: #808080;
-  }
-  .menu-item:nth-child(3) .menu-link {
-    color: #fff;
   }
 }
 .btn-app {
@@ -812,9 +817,6 @@ body {
     padding-right: 15px;
     padding-left: 15px;
   }
-  .subscribe-item:last-child .btn-subscribe {
-    max-width: 240px;
-  }
 }
 
 .subscribe-item-header {
@@ -859,6 +861,7 @@ body {
 
 .subscribe-item-description {
   margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 14px;
 }
 
@@ -889,7 +892,6 @@ body {
   }
   .subscribe-item-description {
     margin-top: 41px;
-    margin-bottom: 15px;
   }
   .subscribe-description {
     margin-top: 0;

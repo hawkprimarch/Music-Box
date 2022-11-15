@@ -13,6 +13,11 @@
       order: 3;
     }
   }
+
+  .logo-text {
+    padding-left: 8px;
+    font-size: 12px;
+  }
   
   .btn-search {
     min-width: 278px;
@@ -37,7 +42,7 @@
   }
   
   .menu-link-active {
-    color: $white;
+    color: $white !important;
   }
   
   @media (max-width: $tablet-landscape) {
@@ -65,11 +70,5 @@
     .menu-item {
       margin-bottom: 10px;
       
-      &:first-child .menu-link {
-        color: $gray;
-      }
-      &:nth-child(3) .menu-link {
-        color: $white;
-      }
     }
   }
