@@ -858,9 +858,8 @@ body {
 }
 
 .subscribe-item-description {
-  margin-top: 38px;
-  margin-bottom: 60px;
-  font-size: 11px;
+  margin-top: 30px;
+  font-size: 14px;
 }
 
 @media (max-width: 1279px) {
@@ -1049,9 +1048,10 @@ body {
 }
 .footer-menu-header {
   margin-top: 80px;
-  margin-bottom: 30px;
-  color: #cacaca;
+  margin-bottom: 27px;
+  color: #fff;
   font-size: 18px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 425px) {

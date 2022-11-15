@@ -9,6 +9,3 @@ make lint
 ```
 
 You can see the result of the work [here](https://hawk-music-box.surge.sh/).
-
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/hawkprimarch/layout-designer-project-56/workflows/hexlet-check/badge.svg)](https://github.com/hawkprimarch/layout-designer-project-56/actions)
