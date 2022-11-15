@@ -252,10 +252,18 @@
   
   .btn-violet {
     background-color: $violet;
+    &:hover {
+      background-color: $dark-violet;
+      transition: 0.5s;
+    }
   }
   
   .btn-brown {
     background-color: $brown;
+    &:hover {
+      background-color: $dark-brown;
+      transition: 0.5s;
+    }
   }
   
   @media (max-width: $mobile) {

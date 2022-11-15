@@ -9,6 +9,18 @@
   .album-image {
     display: flex;
     background-color: #000;
+    &:hover {
+        box-shadow: rgba(217, 217, 226, 0.2) 0px 7px 29px 0px;
+        transition: 0.5s;
+    }
+  }
+
+  .artist-image {
+    border-radius: 100%;
+    &:hover {
+        box-shadow: rgba(217, 217, 226, 0.2) 0px 7px 29px 0px;
+        transition: 0.5s;
+    }
   }
   
   @media (max-width: $desktop) {

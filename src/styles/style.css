@@ -585,9 +585,17 @@ body {
 .btn-violet {
   background-color: #5328a1;
 }
+.btn-violet:hover {
+  background-color: #471e94;
+  transition: 0.5s;
+}
 
 .btn-brown {
   background-color: #95390c;
+}
+.btn-brown:hover {
+  background-color: #8d3002;
+  transition: 0.5s;
 }
 
 @media (max-width: 320px) {
@@ -1074,6 +1082,18 @@ body {
 .album-image {
   display: flex;
   background-color: #000;
+}
+.album-image:hover {
+  box-shadow: rgba(217, 217, 226, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s;
+}
+
+.artist-image {
+  border-radius: 100%;
+}
+.artist-image:hover {
+  box-shadow: rgba(217, 217, 226, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s;
 }
 
 @media (max-width: 1279px) {
