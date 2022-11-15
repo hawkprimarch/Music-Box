@@ -1,0 +1,68 @@
+.btn-album {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    display: flex;
+    padding: 0;
+  }
+  
+  .album-image {
+    display: flex;
+    background-color: #000;
+  }
+  
+  @media (max-width: $desktop) {
+    .albums-item {
+      flex-basis: 130px;
+      flex-grow: 1;
+    }
+  
+    .album-image {
+      max-width: 100%;
+    }
+  
+    .albums-list {
+      justify-content: space-between;
+    }
+  }
+  
+  .album-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .album-year {
+    color: $white;
+  }
+  
+  @media (max-width: $iphone-6-plus) {
+    .albums-header {
+      font-size: 20px;
+    }
+  
+    .albums-list {
+      column-gap: 20px;
+    }
+  
+    .btn-album {
+      bottom: 5px;
+      left: 5px;
+    }
+  
+    .album-btn-image {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .album-header {
+      margin-right: 30px;
+  
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+  
+    .album-year {
+      font-size: 14px;
+    }
+  }
