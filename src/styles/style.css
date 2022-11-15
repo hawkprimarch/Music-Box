@@ -387,7 +387,7 @@ body {
     background-size: 2200px 630px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .bg-banner-inner {
     background-position-x: -1374px;
   }
@@ -425,7 +425,7 @@ body {
   font-size: 14px;
   font-family: inherit;
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .form-input {
     flex-grow: 1;
   }
@@ -456,7 +456,7 @@ body {
     font-size: 17px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .header-level-1 {
     margin-top: 59px;
     font-size: 45px;
@@ -551,7 +551,7 @@ body {
     margin-bottom: 75px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .btn-banner:first-of-type {
     margin-bottom: 19px;
   }
@@ -606,7 +606,7 @@ body {
     padding-left: 0;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .menu {
     flex-direction: column;
     order: 3;
@@ -643,7 +643,7 @@ body {
     align-items: center;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .navigation {
     flex-direction: column;
     align-items: flex-start;
@@ -768,7 +768,7 @@ body {
   box-shadow: rgba(217, 217, 226, 0.2) 0px 7px 29px 0px;
   transition: 0.5s;
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .subscribe-item {
     margin-right: auto;
     margin-left: auto;
@@ -863,7 +863,7 @@ body {
     row-gap: 50px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .subscribe-list {
     justify-content: space-between;
   }
@@ -1022,7 +1022,7 @@ body {
   max-width: 534px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .footer-container {
     flex-wrap: wrap;
   }
