@@ -341,3 +341,12 @@
     font-size: 38px;
     text-transform: uppercase;
   }
+
+  @media (max-width: $iphone-6-plus) {
+    .mr-35 {
+      margin-right: 0;
+    }
+    .pt-25 {
+      padding-top: 20px;
+    }
+  }

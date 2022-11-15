@@ -347,6 +347,14 @@ body {
   text-transform: uppercase;
 }
 
+@media (max-width: 425px) {
+  .mr-35 {
+    margin-right: 0;
+  }
+  .pt-25 {
+    padding-top: 20px;
+  }
+}
 .bg-banner {
   background-image: url("../images/banner.png");
   background-position: center;
@@ -363,7 +371,7 @@ body {
 }
 @media (max-width: 375px) {
   .bg-banner {
-    background-size: 1156px 738px;
+    background-size: cover;
   }
 }
 
@@ -468,7 +476,7 @@ body {
     font-size: 16px;
   }
   .btn-banner {
-    width: 100% !important;
+    width: 80% !important;
   }
 }
 @media (max-width: 425px) {
@@ -483,6 +491,9 @@ body {
   }
   .bg-banner-inner-subscribers {
     font-size: 16px;
+  }
+  .btn-send {
+    min-height: 56px !important;
   }
 }
 @media (max-width: 375px) {
@@ -515,10 +526,10 @@ body {
 }
 .btn-green {
   color: #fff;
-  background-color: #34c176;
+  background-color: #1da75d;
 }
 .btn-green:hover {
-  background-color: #1d8f52;
+  background-color: #0e974e;
   transition: 0.5s;
 }
 

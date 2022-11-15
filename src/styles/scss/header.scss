@@ -11,7 +11,7 @@
     }
   
     @media (max-width: $iphone-6) {
-      background-size: 1156px 738px;
+      background-size: cover;
     }
   }
   
@@ -117,7 +117,7 @@
       font-size: 16px;
     }
     .btn-banner {
-    width: 100% !important;
+    width: 80% !important;
     }
   }
   
@@ -136,6 +136,10 @@
   
     .bg-banner-inner-subscribers {
       font-size: 16px;
+    }
+
+    .btn-send {
+      min-height: 56px !important;
     }
   }
   
