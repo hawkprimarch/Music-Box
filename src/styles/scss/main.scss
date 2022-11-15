@@ -1,0 +1,106 @@
+.btn-app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 174px;
+    min-height: 56px;
+  
+    font-size: 14px;
+  
+    @media (max-width: $iphone-6-plus) {
+      max-width: none;
+      min-height: 50px;
+    }
+  }
+  
+  .btn-red {
+    color: $white;
+    background-color: $red;
+
+    &:hover {
+        background-color: $dark-red;
+        transition: 0.5s;
+    }
+  }
+  
+  @media (max-width: $tablet-landscape) {
+    .app-container {
+      flex-direction: column;
+      & .col:last-child {
+        text-align: center;
+      }
+    }
+  
+    .app-image {
+      max-width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: $iphone-6-plus) {
+    .app-header {
+      margin-top: 90px;
+  
+      font-size: 20px;
+    }
+  
+    .app-container {
+      flex-wrap: wrap;
+      gap: 50px;
+      & .col:last-child {
+        flex-basis: auto;
+        flex-shrink: 1;
+        order: -1;
+      }
+    }
+  
+    .app-description:first-child {
+      margin-top: 0;
+    }
+  
+    .app {
+      margin-bottom: 96px;
+    }
+  }
+  
+  @media (max-width: $desktop) {
+    .artists-item {
+      flex-basis: 130px;
+      flex-grow: 1;
+      max-width: 250px;
+    }
+  
+    .artist-image {
+      max-width: 100%;
+    }
+  
+    .artists-list {
+      justify-content: center;
+    }
+  }
+  
+  .artist-header {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  @media (max-width: $iphone-6-plus) {
+    .artists-header {
+      margin-bottom: 72px;
+      font-size: 20px;
+    }
+  
+    .artists-list {
+      column-gap: 20px;
+    }
+  
+    .artist-header {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  
+    .artist-fan {
+      font-size: 12px;
+    }
+  }

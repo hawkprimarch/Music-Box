@@ -175,6 +175,11 @@
   .btn-green {
     color: $white;
     background-color: $green;
+
+    &:hover {
+      background-color: $dark-green;
+      transition: 0.5s;
+    }
   }
   
   .btn-rounded {

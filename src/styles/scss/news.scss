@@ -1,0 +1,99 @@
+.news-author {
+    display: flex; 
+    gap: 21px;
+    align-items: center;
+    max-width: 221px;
+    margin-bottom: 45px;
+  
+    @media (max-width: $iphone-6-plus) {
+      max-width: 257px;
+      margin-bottom: 25px;
+    }
+  }
+  
+  .btn-news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 129px;
+    min-height: 48px;
+  
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 28px;
+  
+    @media (max-width: $iphone-6-plus) {
+      max-width: none;
+      min-height: 50px;
+    }
+  }
+  
+  .btn-grey {
+    color: $grey;
+    border-color: $light-grey;
+    border-style: solid;
+    border-width: 1px;
+
+    &:hover {
+        color: $white;
+        border-color: $white;
+        transition: 0.5s;
+    }
+  }
+  
+  .news-article-header {
+    margin-bottom: 25px;
+    font-weight: normal;
+    font-size: 30px;
+  }
+
+  .news-image {
+    &:hover {
+        box-shadow: rgba(217, 217, 226, 0.2) 0px 7px 29px 0px;
+        transition: 0.5s;
+    }
+  }
+  
+  @media (max-width: $tablet-landscape) {
+    .news-image {
+      max-width: 100%;
+      margin: auto;
+    }
+  
+    .news-article {
+      flex-wrap: wrap;
+      &:last-of-type .news-image {
+        order: -1;
+      }
+    }
+  }
+  
+  .news-description {
+    margin-bottom: 16px;
+    color: $grey;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  
+  @media (max-width: $iphone-6-plus) {
+    .news-header {
+      margin-top: 44px;
+  
+      font-size: 20px;
+    }
+  
+    .news-article {
+      gap: 0;
+      &:first-of-type {
+        margin-bottom: 40px;
+      }
+      &:last-of-type .news-article-header {
+        margin-top: 20px;
+      }
+    }
+  
+    .news-description {
+      margin-bottom: 25px;
+    }
+  }

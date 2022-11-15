@@ -72,6 +72,11 @@
   
   .text-light-gray {
     color: $light-gray;
+
+    &:hover {
+      color: $white;
+      transition: 0.5s;
+    }
   }
   
   .text-orange {
@@ -326,7 +331,6 @@
   .btn {
     font-family: inherit;
     text-decoration: none;
-    background-color: transparent;
     border-radius: 5px;
   }
   

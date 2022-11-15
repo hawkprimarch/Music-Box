@@ -20,6 +20,8 @@
     padding-left: 14px;
     font-weight: bold;
     font-size: 11px;
+    color: $light-gray;
+
   }
   
   .menu-link {
@@ -27,6 +29,11 @@
     font-weight: bold;
     font-size: 11px;
     text-decoration: none;
+  }
+
+  .menu-link:hover {
+    color: $white;
+    transition: 1s;
   }
   
   .menu-link-active {
@@ -57,6 +64,7 @@
   
     .menu-item {
       margin-bottom: 10px;
+      
       &:first-child .menu-link {
         color: $gray;
       }
